@@ -33,7 +33,7 @@
 
     <!-- Hero Section -->
 
-    <section class="relative w-full min-h-screen md:h-[760px] bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center pt-20 pb-10 md:pt-0 md:pb-0">
+    <section class="relative w-full min-h-screen md:h-[760px] bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center pt-20 pb-10 md:py-0">
 
         <!-- <div class="absolute inset-0 grid place-items-center"> -->
 
@@ -64,13 +64,16 @@
 
     <!-- About Section -->
 
-    <section class="bg-[#1A0B2E]">
-        <div class="pt-12 pb-12 pl-[200px] pr-[200px]  text-center">
-            <h2 class="text-white text-5xl font-semibold mb-4">About the Podcast</h2>
-            <p class="text-white text-[16px] font-light text-base/8">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>We break down complex topics into digestible insights, explore productivity strategies that actually work,<br> and share stories of personal growth from industry leaders.</p>
-            <br>
-            <br>
-            <p class="text-white text-[16px] font-light">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+    <section class="bg-[#1A0B2E] py-10 md:py-16 lg:px-[200px] text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-white text-3xl md:text-5xl font-semibold mb-6">About the Podcast</h2>
+            <div class="text-white opacity-80 font-light text-sm md:text-base space-y-6 md:space-y-6">
+                <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>We break down complex topics into digestible insights, explore productivity strategies that actually work,<br> and share stories of personal growth from industry leaders.
+                </p>
+                
+                <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                </p>
+            </div>
         </div>
     </section>
 
@@ -106,7 +109,7 @@
             <div>
                 <h2 class="text-5xl font-bold mt-12 mb-10 text-center">Why Choose TechWave</h2>
             </div>
-            <div class="grid grid-cols-3 grid-rows-3 gap-7">
+            <div class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-7">
                 <div class="row-span-2 bg-[#351165]/40 rounded-[40px] p-10 flex flex-col justify-center">
                     <img class="mb-4 w-10" src="./assets/headphone.png" alt="">
                     <h3 class="mb-4 text-2xl font-semibold">Premium Audio Quality</h3>
@@ -143,7 +146,7 @@
             <div>
                 <h2 class="text-5xl font-bold mt-12 mb-10 text-center">Featured Episodes</h2>
             </div>
-            <div class="grid grid-cols-3 gap-[30px]">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
                 <div class="bg-[#250D44] rounded-t-4xl flex flex-col   overflow-hidden">
                     <div class="relative w-full h-[220px]">
                         <iframe class="w-full h-full" src="https://www.youtube.com/embed/j6Ule7GXaRs?si=nSEtsWrTlx3Toewk" title="YouTube video player"  frameborder="0" allowfullscreen></iframe>
@@ -181,7 +184,7 @@
                 <h2 class="text-5xl font-bold mt-12 mb-14 text-center">Meet the Host</h2>
             </div>
             <div class="bg-[#351165]/40 rounded-4xl p-10">
-                <div class="flex items-center gap-10 ">
+                <div class="flex flex-col md:flex-row items-center gap-10 ">
                     <div class="shrink-0">
                         <img src="./assets/host.png" alt="">
                     </div>
@@ -212,12 +215,12 @@
 
     <!-- Footer Section -->
 
-    <footer class="bg-[url('./assets/footer-bg.png')] h-[412px] bg-no-repeat w-full bg-cover bg-center">
+    <footer class="bg-[url('./assets/footer-bg.png')] min-h-[400px] bg-no-repeat w-full bg-cover bg-center">
         <div class="flex flex-col items-center justify-center p-[120px] gap-8">
             <div>
-                <h2 class="text-white text-8xl font-bold">Tech<span class="bg-[linear-gradient(20deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] bg-clip-text text-transparent">Wave</span></h2>
+                <h2 class="text-white text-4xl md:text-8xl font-bold">Tech<span class="bg-[linear-gradient(20deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] bg-clip-text text-transparent">Wave</span></h2>
             </div>
-            <div class="flex items-center justify-center gap-8 mt-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 items-center justify-center gap-8 mt-6">
                 <div class="flex item gap-2">
                     <img src="./assets/spotify.png" alt="">
                     <p class="text-white">Spotify</p>
